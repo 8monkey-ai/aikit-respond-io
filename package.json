@@ -4,10 +4,9 @@
   "description": "A type-safe toolkit for Respond.io integration, featuring a secure webhook handler.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/heboai/hebo.git",
-    "directory": "packages/aikit-respond-io"
+    "url": "git+https://github.com/8monkey-ai/aikit-respond-io.git"
   },
-  "homepage": "https://github.com/heboai/hebo/tree/main/packages/aikit-respond-io#readme",
+  "homepage": "https://github.com/8monkey-ai/aikit-respond-io#readme",
   "keywords": [
     "respond.io",
     "webhook",
@@ -16,7 +15,7 @@
     "integration",
     "bot"
   ],
-  "author": "Hebo",
+  "author": "8monkey",
   "license": "MIT",
   "files": [
     "dist"

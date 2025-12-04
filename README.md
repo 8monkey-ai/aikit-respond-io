@@ -184,5 +184,5 @@ export const handler = awsLambdaAdapter(onMessage.fetch);
 
 We welcome contributions!
 
-- **Bug Reports & Feature Requests**: Please use the [issue tracker](https://github.com/heboai/hebo/issues) to report bugs or suggest features.
+- **Bug Reports & Feature Requests**: Please use the [issue tracker](https://github.com/8monkey-ai/aikit-respond-io/issues) to report bugs or suggest features.
 - **Pull Requests**: Specific fixes and improvements are welcome. Please open a PR.
