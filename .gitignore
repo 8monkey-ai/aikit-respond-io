@@ -1,0 +1,102 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+node_modules
+.pnp
+.pnp.js
+.jspm_packages/
+
+# testing
+coverage
+.nyc_output
+
+# next.js
+.next/
+out/
+build
+dist
+
+# react router
+.react-router
+
+# misc
+.DS_Store
+Thumbs.db
+*.pem
+.env*
+!.env.example
+.secrets*
+.build-complete
+.node_repl_history
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+logs
+*.log
+
+# local env files
+.env*.local
+
+# turbo
+.turbo
+
+# sst
+.sst
+.open-next
+sst-env.d.ts
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# IDE
+.idea
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/settings.json
+*.swp
+*.swo
+
+# Cursor
+.cursor
+
+# db
+.local-storage
+
+# eslint
+.eslintcache
+
+# bun
+server
+*.bun-build
+.bun
+
+# npm
+.npm
+.yarn-integrity
+
+# bundler / build caches
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+.cache
+.parcel-cache
+.fusebox/
+.tern-port
+
+# dynamodb local
+.dynamodb/
+
+# prisma client
+**/generated/**
+
+# Vim backup files
+*.swp
+*.swo
+*~
+*.un~
