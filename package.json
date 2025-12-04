@@ -1,5 +1,5 @@
 {
-  "name": "@hebo/aikit-respond-io",
+  "name": "@8monkey/aikit-respond-io",
   "version": "0.0.1",
   "description": "A type-safe toolkit for Respond.io integration, featuring a secure webhook handler.",
   "repository": {

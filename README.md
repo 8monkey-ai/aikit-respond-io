@@ -1,4 +1,4 @@
-# @hebo/aikit-respond-io
+# @8monkey/aikit-respond-io
 
 A library to help setup webhook for respond.io integration using a clean, event-based API.
 
@@ -16,7 +16,7 @@ Integrating with third-party webhooks often requires repetitive boilerplate: ver
 ## Installation
 
 ```bash
-bun add @hebo/aikit-respond-io
+bun add @8monkey/aikit-respond-io
 ```
 
 ## Compatibility
@@ -35,7 +35,7 @@ Create a handler and define your logic.
 import {
   webhook,
   MessageReceivedPayload,
-} from "@hebo/aikit-respond-io/webhook";
+} from "@8monkey/aikit-respond-io/webhook";
 
 // 1. Create the handler
 const onMessage = webhook<MessageReceivedPayload>({
@@ -79,7 +79,7 @@ const onMessage = webhook<MessageReceivedPayload>({
 Easily convert Respond.io payloads into AI SDK messages.
 
 ```ts
-import { toModelMessage } from "@hebo/aikit-respond-io/vercel-ai";
+import { toModelMessage } from "@8monkey/aikit-respond-io/vercel-ai";
 import { generateText } from "ai";
 
 // Inside your webhook handle function:
@@ -101,7 +101,7 @@ Integrate with an Express.js application.
 import {
   webhook,
   MessageReceivedPayload,
-} from "@hebo/aikit-respond-io/webhook";
+} from "@8monkey/aikit-respond-io/webhook";
 
 import { createMiddleware } from "@hattip/adapter-node";
 import express from "express";
@@ -125,7 +125,7 @@ Integrate with a Hono application.
 import {
   webhook,
   MessageReceivedPayload,
-} from "@hebo/aikit-respond-io/webhook";
+} from "@8monkey/aikit-respond-io/webhook";
 import { Hono } from "hono";
 
 const onMessage = webhook<MessageReceivedPayload>({
@@ -147,7 +147,7 @@ Integrate with an ElysiaJS application.
 import {
   webhook,
   MessageReceivedPayload,
-} from "@hebo/aikit-respond-io/webhook";
+} from "@8monkey/aikit-respond-io/webhook";
 import { Elysia } from "elysia";
 
 const onMessage = webhook<MessageReceivedPayload>({
@@ -166,7 +166,7 @@ Deploy your webhook handler as a standalone AWS Lambda function.
 import {
   webhook,
   MessageReceivedPayload,
-} from "@hebo/aikit-respond-io/webhook";
+} from "@8monkey/aikit-respond-io/webhook";
 
 import awsLambdaAdapter from "@hattip/adapter-aws-lambda";
 
