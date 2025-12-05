@@ -35,5 +35,5 @@ jobs:
 
       - name: Publish
         run: |
-          bun pm pack
-          bun publish ./package.tgz
+          bun pm pack --filename aikit-respond-io.tgz
+          bun publish ./aikit-respond-io.tgz
