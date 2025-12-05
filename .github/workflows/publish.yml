@@ -36,4 +36,4 @@ jobs:
       - name: Publish
         run: |
           bun pm pack --filename aikit-respond-io.tgz
-          bun publish ./aikit-respond-io.tgz
+          bunx npm publish ./aikit-respond-io.tgz --provenance
