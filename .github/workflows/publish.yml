@@ -35,4 +35,5 @@ jobs:
 
       - name: Publish
         run: |
-          bunx npm publish --provenance
+          bun pm pack
+          bun publish ./package.tgz
