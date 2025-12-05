@@ -35,5 +35,4 @@ jobs:
 
       - name: Publish
         run: |
-          bunx npm login
-          bun publish
+          bunx npm publish --provenance
