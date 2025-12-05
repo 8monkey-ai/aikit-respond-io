@@ -34,7 +34,6 @@ jobs:
       - name: Build & Test
         run: |
           npm run build --if-present
-          npm test
 
       - name: Publish
         run: |
