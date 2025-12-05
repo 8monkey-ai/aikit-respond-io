@@ -35,5 +35,5 @@ jobs:
 
       - name: Publish
         run: |
-          bun npm login
+          bunx npm login
           bun publish
