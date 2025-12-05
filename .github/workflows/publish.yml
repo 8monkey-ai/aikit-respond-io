@@ -35,4 +35,4 @@ jobs:
 
       - name: Publish
         run: |
-          npm publish
+          bun publish
