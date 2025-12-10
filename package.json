@@ -38,7 +38,7 @@
   },
   "type": "module",
   "dependencies": {},
-  "peerDependencies": {
+  "optionalDependencies": {
     "ai": "^5.0.106"
   },
   "devDependencies": {
