@@ -41,6 +41,11 @@
   "peerDependencies": {
     "ai": "^5.0.106"
   },
+  "peerDependenciesMeta": {
+    "ai": {
+      "optional": true
+    }
+  },
   "devDependencies": {
     "bun-types": "^1.3.3",
     "typescript": "^5.9.3"

@@ -76,6 +76,8 @@ const onMessage = webhook<MessageReceivedPayload>({
 
 ### Vercel AI SDK
 
+> **Note**: With `ai` as a dependency.
+
 Easily convert Respond.io payloads into AI SDK messages.
 
 ```ts
